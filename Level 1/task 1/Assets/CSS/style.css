@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima:wght@200&family=Barlow+Condensed&family=Bona+Nova:ital@1&family=Bruno+Ace+SC&family=Caveat:wght@600;700&family=Changa&family=Clicker+Script&family=Kdam+Thmor+Pro&family=Lexend+Deca&family=Macondo&family=Monoton&family=Odibee+Sans&family=Orbitron:wght@400;500;600;700;800;900&family=Permanent+Marker&family=Philosopher:ital,wght@1,700&family=Play:wght@700&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@600&family=Righteous&family=Teko:wght@300;400;600&family=Zen+Loop&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima:wght@200&family=Barlow+Condensed&family=Bona+Nova:ital@1&family=Bruno+Ace+SC&family=Caveat:wght@600;700&family=Changa&family=Clicker+Script&family=Kdam+Thmor+Pro&family=Lexend+Deca&family=Macondo&family=Monoton&family=Odibee+Sans&family=Oleo+Script:wght@400;700&family=Orbitron:wght@400;500;600;700;800;900&family=Permanent+Marker&family=Philosopher:ital,wght@1,700&family=Play:wght@700&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@600&family=Righteous&family=Teko:wght@300;400;600&family=Zen+Loop&display=swap');
+
 
 
 * {
@@ -8,8 +10,12 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 :root {
-    --clr-bg-1: #e0dede;
+    --clr-bg-1: #eee5e5;
     --clr-bg-2: #f2f2fc;
     --clr-bg-3: #fdf9ff;
     --text--primary-light: #c99403;
@@ -18,6 +24,7 @@
     --bg--black-700: #161616;
 }
 
+/* -------------header starts---------------------- */
 .header {
     background: var(--clr-bg-1);
     width: 100%;
@@ -58,6 +65,7 @@
 
 .header .nav {
     /* background-color: #f2f2fc; */
+    z-index: 5;
 }
 
 .header .nav ul li {
@@ -82,3 +90,91 @@
     color: var(--text--primary-light);
     letter-spacing: 5px;
 }
+
+/* -------------header ends---------------------- */
+
+
+/* -------------hero starts---------------------- */
+.hero {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background: var(--clr-bg-1);
+    /* background: #fff; */
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    background-color: #474747;
+}
+
+.left .left-content {
+    margin-top: 10%;
+    width: 100%;
+    background-color: #eee5e5;
+    /* background: url("css-images/yellow-bg.png")no-repeat center center/cover; */
+    /* height: 350px; */
+}
+
+.left .left-content h1 {
+    font-size: 5rem;
+    font-family: 'Oleo Script', cursive;
+    text-transform: uppercase;
+    color: #fff;
+    color: var(--text--primary-light);
+    /* text-shadow: 2px 2px 3px rgba(5, 5, 5, 0.123); */
+}
+
+.right {
+    height: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.deco {
+    width: 100%;
+    height: 100%;
+    background: #dfc16e;
+    border-radius: 42%;
+    transform: rotate(-45deg);
+    z-index: 2;
+    /* margin-right: -200px; */
+    margin-left: 50px;
+    margin-top: -20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deco-1 {
+    width: 75%;
+    height: 70%;
+    background-color: #f8e1a0;
+    /* text-align: center; */
+    border-radius: 42%;
+    transform: rotate(100deg);
+    box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, 0.137);
+    position: relative;
+
+}
+
+.deco-1 #paw {
+    width: 480px;
+    margin-left: 30px;
+    transform: rotate(-60deg);
+    mix-blend-mode: overlay;
+}
+
+.deco-1 #cat {
+    position: absolute;
+    width: 380px;
+    right: 90px;
+    top: 45px;
+    transform: rotate(-60deg);
+}
+
+/* -------------hero ends---------------------- */

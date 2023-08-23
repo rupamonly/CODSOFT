@@ -15,7 +15,10 @@
 body {
     overflow-x: hidden;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+    cursor: url(css-images/catpaw1.png), auto;
 }
+
 
 :root {
     --clr-bg-1: #f0ebeb;
@@ -25,6 +28,23 @@ body {
     --text--primary-dark: #707070;
     --text--secondary-dark: #474747;
     --bg--black-700: #161616;
+}
+
+::-webkit-scrollbar {
+    width: 0.9em;
+    padding: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-bg-1);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text--primary-light);
+    border-radius: 50px;
+    border: 4px solid var(--clr-bg-1);
 }
 
 .btn {

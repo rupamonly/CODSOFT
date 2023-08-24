@@ -118,6 +118,18 @@ body {
     display: inline-block;
     margin-right: 50px;
     padding: 5px;
+    position: relative;
+}
+
+.header .nav ul li::before {
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 3px;
+    left: -10px;
+    top: 0;
+    background: var(--text--primary-light);
+    transform: skewX(-15deg);
 }
 
 .header .nav ul li a {

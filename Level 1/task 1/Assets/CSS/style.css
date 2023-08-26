@@ -1060,3 +1060,172 @@ body {
 
 
 }
+
+@media (max-width:1000px) {
+
+    .hero {
+        height: 60vh;
+
+    }
+
+    .left {
+        height: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .left .left-content h1 {
+        font-size: 2rem;
+        letter-spacing: 20px;
+        line-height: 1.5em;
+    }
+
+    .left .left-content small {
+        font-size: 1.1em;
+    }
+
+    .left .left-content .btn {
+        margin-bottom: 20px;
+    }
+
+    .hero .right {
+        display: none;
+    }
+
+    .services {
+
+        height: 60vh;
+    }
+
+    .service-box {
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .service-box h2 {
+        font-size: 1.3rem;
+    }
+
+    .service-box p {
+        font-size: 0.9em;
+    }
+
+    .about {
+        height: 60vh;
+
+    }
+
+    .about-left {
+        padding: 15px;
+    }
+
+
+    .left-cont h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .left-cont h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .left-cont p {
+        font-size: 0.7em;
+        line-height: 15px;
+        letter-spacing: 0;
+        font-weight: 300;
+    }
+
+    .carts h1 {
+
+        font-size: 2.5rem;
+    }
+
+    .carts-box .cart {
+
+        grid-template-columns: repeat(2, auto)
+    }
+
+    .reviews h2 {
+        font-size: 2.1rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .review-cont {
+        width: 100%;
+        height: 80%;
+    }
+
+    .review {
+
+        height: 35%;
+
+    }
+
+    .prof-cont .prof-text h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .prof-cont .prof-text #username {
+        font-size: 1em;
+    }
+
+
+    .review .rev-text p {
+        font-size: 1em;
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+
+    .footer-top .left {
+        padding: 30px;
+    }
+
+    .foot-link {
+        margin-bottom: 10px;
+    }
+
+    .footer-top .left a {
+        font-size: 1em;
+    }
+
+    .footer-top .middle {
+        padding: 30px;
+    }
+
+    .footer-top .middle .foot-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-top .middle .foot-nav a {
+        font-size: 1em;
+
+    }
+
+    .footer-top .right {
+        padding: 50px;
+    }
+
+    .footer-top .right p {
+        font-size: 1em;
+        letter-spacing: 1px;
+        line-height: 15px;
+
+    }
+
+    .footer-mid {
+        padding: 10px;
+    }
+
+    .footer-mid h3 {
+        font-size: 1.5em;
+    }
+
+}

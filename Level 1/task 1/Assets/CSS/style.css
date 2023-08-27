@@ -472,7 +472,7 @@ body {
     background: #fff;
 }
 
-/* -------------services ends---------------------- */
+/* -------------about ends---------------------- */
 
 
 
@@ -1062,6 +1062,54 @@ body {
 }
 
 @media (max-width:1000px) {
+    .btn {
+        padding: 5px 10px;
+        margin: 3px;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+    .btn:hover {
+        letter-spacing: 2px;
+
+    }
+
+
+    .header {
+        padding: 10px;
+    }
+
+    .header .logo {
+        padding: 3px;
+    }
+
+    .header .logo img {
+        width: 35px;
+    }
+
+    .header .logo .logo-text a {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .header .logo .logo-text a span {
+        font-size: 1.4rem;
+    }
+
+    .header .nav ul li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+
+    .header .nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    .header .nav ul li a:hover {
+
+        letter-spacing: 2px;
+    }
 
     .hero {
         height: 60vh;
@@ -1112,7 +1160,7 @@ body {
     }
 
     .about {
-        height: 60vh;
+        height: 70vh;
 
     }
 
@@ -1136,6 +1184,11 @@ body {
         line-height: 15px;
         letter-spacing: 0;
         font-weight: 300;
+    }
+
+    .right-cont h2 {
+        margin-right: 3px;
+        font-size: 1em;
     }
 
     .carts h1 {

@@ -152,6 +152,43 @@ body {
     letter-spacing: 4px;
 }
 
+.hamburger {
+    width: 50px;
+    height: 100%;
+    /* background: #707070; */
+    display: flex;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background: var(--text--primary-light);
+    position: relative;
+}
+
+.hamburger span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: var(--text--primary-light);
+    height: 3px;
+    left: 0;
+    top: -10px;
+}
+
+.hamburger span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: var(--text--primary-light);
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+}
+
 /* -------------header ends---------------------- */
 
 
@@ -1160,7 +1197,7 @@ body {
     }
 
     .about {
-        height: 70vh;
+        height: 80vh;
 
     }
 
@@ -1238,7 +1275,7 @@ body {
 
 
     .footer-top .left {
-        padding: 30px;
+        padding: 20px;
     }
 
     .foot-link {
@@ -1246,7 +1283,7 @@ body {
     }
 
     .footer-top .left a {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .footer-top .middle {
@@ -1281,4 +1318,63 @@ body {
         font-size: 1.5em;
     }
 
+}
+
+@media (max-width:760px) {
+    .header .nav {
+        position: absolute;
+        background: var(--clr-bg-2);
+        top: 0;
+        top: -510px;
+        right: 0;
+        height: 500px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.342);
+
+    }
+
+    .header .nav ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .header .nav {
+        /* background-color: #f2f2fc; */
+        z-index: 15;
+    }
+
+    .header .nav ul li {
+        display: inline-block;
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .header .nav ul li::before {
+        display: none;
+    }
+
+    .header .nav ul li a {
+        font-size: 1.6rem;
+        letter-spacing: 4px;
+
+    }
+
+    .header .nav ul li a:hover {
+        transition: 0.3s;
+        color: var(--text--primary-light);
+        letter-spacing: 6px;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 25;
+    }
 }

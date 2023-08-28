@@ -22,7 +22,7 @@
                     <a href="#">HiiEE<span>KiiTTy!!</span></a>
                 </div>
             </div>
-            <nav class="nav open">
+            <nav class="nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Pets</a></li>
@@ -487,6 +487,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            hamburger.classList.toggle('open')
+        });
+
+    </script>
 </body>
 
 </html>

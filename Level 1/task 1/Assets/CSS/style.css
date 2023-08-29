@@ -1427,12 +1427,207 @@ body {
     }
 
     .service-box h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 20px;
     }
 
 
     .service-box p {
+        font-size: 0.7em;
+    }
+
+    .about {
+        height: 60vh;
+    }
+
+    .about-left {
+        padding: 10px;
+    }
+
+    .left-cont {
+        /* background: #474747; */
+        padding: 10px;
+    }
+
+    .left-cont h2 {
+        font-size: 1rem;
+    }
+
+
+    .left-cont h3 {
+        font-size: 1.01rem;
+    }
+
+    .left-cont p {
+        font-size: 0.6em;
+        line-height: 10px;
+    }
+
+    .right-cont h2 {
+        font-size: 0.8em;
+    }
+
+    .right-cont .btn {
+        font-size: 0.8em;
+    }
+
+    .carts h1 {
+        font-size: 1rem;
+    }
+
+    .carts-box {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .carts-box .cart {
+        gap: 10px 20px;
+        grid-template-columns: repeat(2, auto);
+        padding: 10px;
+    }
+
+    .cart-item .price-tag {
         font-size: 1em;
     }
+
+    .cart-item .cart-cover p {
+        margin-top: 30px;
+        font-size: 0.7em;
+    }
+
+
+    .cart-item .img-cont img {
+        height: 170px;
+
+    }
+
+
+    .cart-item .name {
+        font-size: 1em;
+    }
+
+    .cart-item .links {
+        font-size: 0.8em;
+    }
+
+    .reviews {
+        padding: 20px;
+    }
+
+    .reviews h2 {
+        font-size: 1.4rem;
+    }
+
+
+
+    .review-cont {
+        width: 100%;
+        height: 80%;
+        /* background: yellow; */
+    }
+
+    .review {
+        width: 100%;
+        height: 45%;
+        background: var(--clr-bg-3);
+        box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.342);
+        margin-bottom: 30px;
+    }
+
+    .review .prof-cont {
+        width: 100%;
+        height: 50%;
+        /* background: violet; */
+        display: flex;
+    }
+
+    .prof-cont .img-cont {
+        width: 100px;
+        height: 130px;
+
+    }
+
+    .prof-cont .img-cont .img-circle {
+        height: 65px;
+        width: 65px;
+    }
+
+
+    .prof-cont .prof-text h3 {
+        font-size: 1em;
+        margin-bottom: 7px;
+    }
+
+    .prof-cont .prof-text #username {
+        margin-bottom: 10px;
+        font-size: 0.9em;
+    }
+
+    .prof-cont .prof-text small {
+        font-size: 0.9em;
+
+    }
+
+    .review .rev-text {
+        padding: 15px;
+    }
+
+    .review .rev-text p {
+        font-size: 0.7em;
+
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+
+    .footer-top .left {
+        padding: 20px;
+    }
+
+    .foot-link {
+        margin-bottom: 10px;
+    }
+
+    .footer-top .left a {
+        font-size: 0.7em;
+    }
+
+    .footer-top .middle {
+        padding: 30px;
+    }
+
+    .footer-top .middle .foot-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-top .middle .foot-nav a {
+        font-size: 0.8em;
+
+    }
+
+    .footer-top .right {
+        padding: 50px;
+    }
+
+    .footer-top .right p {
+        font-size: 0.6em;
+        letter-spacing: 1px;
+        line-height: 15px;
+
+    }
+
+    .footer-mid {
+        padding: 10px;
+    }
+
+    .footer-mid h3 {
+        font-size: 1em;
+    }
+
+    .footer-bottom h3 {
+        font-size: 0.6em;
+    }
+
 }

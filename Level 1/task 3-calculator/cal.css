@@ -19,10 +19,12 @@
 
 .calculator {
     background-color: #575758;
-    padding: 1px;
-    box-shadow: 5px 5px 17px 7px rgba(0, 0, 0, 0.514);
+    box-shadow: 5px 5px 15px 5px rgba(58, 57, 57, 0.514);
     display: grid;
     grid-template-columns: repeat(4, 100px);
+    border-radius: 7px;
+    overflow: hidden;
+
 
 }
 
@@ -35,8 +37,10 @@ input {
     text-align: end;
     padding: 10px;
     background: #000;
-    color: #fff;
+    color: #969696;
+    color: rgb(123, 170, 30);
     margin: auto;
+
 }
 
 button {

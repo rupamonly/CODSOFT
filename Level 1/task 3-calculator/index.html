@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="cal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <section class="cal">
         <div class="calculator">
             <input type="text" id="screen" placeholder="0">
-            <button onclick="Clear()">AC</button>
-            <button onclick="Del()">DEL</button>
-            <button onclick="display('/')">/</button>
-            <button onclick="display('*')">X</button>
+            <button onclick="Clear()" class="del">AC</button>
+            <button onclick="Del()" class="del"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="display('/')" class="operations"><i class="fa-solid fa-divide"></i></button>
+            <button onclick="display('*')" class="operations">x</button>
             <button onclick="display('7')">7</button>
             <button onclick="display('8')">8</button>
             <button onclick="display('9')">9</button>
-            <button onclick="display('+')">+</button>
+            <button onclick="display('+')" class="operations">+</button>
             <button onclick="display('4')">4</button>
             <button onclick="display('5')">5</button>
             <button onclick="display('6')">6</button>
-            <button onclick="display('-')">-</button>
+            <button onclick="display('-')" class="operations">-</button>
             <button onclick="display('1')">1</button>
             <button onclick="display('2')">2</button>
             <button onclick="display('3')">3</button>
@@ -31,6 +34,10 @@
             <button onclick="display('%')">%</button>
         </div>
     </section>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
+
 </html>

@@ -1,14 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Acme&family=Arima:wght@200&family=Barlow+Condensed&family=Bona+Nova:ital@1&family=Bruno+Ace+SC&family=Caveat:wght@600;700&family=Changa&family=Clicker+Script&family=Kdam+Thmor+Pro&family=Lexend+Deca&family=Macondo&family=Monoton&family=Noto+Sans+Sogdian&family=Odibee+Sans&family=Oleo+Script:wght@400;700&family=Orbitron:wght@400;500;600;700;800;900&family=Permanent+Marker&family=Philosopher:ital,wght@1,700&family=Play:wght@700&family=Poppins:wght@200;300;400;500;600&family=Rajdhani:wght@600&family=Righteous&family=Teko:wght@300;400;600&family=Ubuntu:wght@300;400;500;700&family=Zen+Loop&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans Sogdian', sans-serif;
 }
-.cal{
+
+.cal {
     position: relative;
     width: 100%;
     height: 100vh;
     background: url(background.jpg)no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #575758;
+    padding: 1px;
+    box-shadow: 5px 5px 17px 7px rgba(0, 0, 0, 0.514);
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+
+}
+
+input {
+    grid-column: span 4;
+    border: none;
+    height: 90px;
+    width: 100%;
+    font-size: 2.7rem;
+    text-align: end;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    margin: auto;
+}
+
+button {
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to bottom right, rgba(31, 31, 30, 0.459), rgb(5, 5, 5));
+    color: #fff;
+    font-weight: 500;
+}
+
+.equal {
+    grid-column: 4;
+    grid-row: 5/span 2;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgba(238, 189, 133, 0.836), rgb(165, 95, 4));
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+.del {
+    border: none;
+    background: rgb(40, 41, 41);
+    color: #888787;
+}
+
+.operations {
+    border: none;
+    color: #000;
+    background: linear-gradient(to top right, rgb(224, 224, 224), rgb(255, 255, 255));
+    font-weight: 700;
+}
+
+button:focus {
+    background: yellowgreen;
+    background: linear-gradient(to bottom right, rgb(185, 224, 169), rgb(29, 114, 3));
+    color: #000;
+
 }

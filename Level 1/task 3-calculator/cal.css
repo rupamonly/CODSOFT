@@ -51,6 +51,7 @@ button {
     background: linear-gradient(to bottom right, rgba(31, 31, 30, 0.459), rgb(5, 5, 5));
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .equal {

@@ -1,6 +1,6 @@
 let Screen = document.getElementById('screen')
 
-function display(num) {
+function takeInput(num) {
     Screen.value += num
 }
 

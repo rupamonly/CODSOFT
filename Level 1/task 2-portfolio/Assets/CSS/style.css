@@ -15,7 +15,7 @@
     --bg--dark-2: #504e6e;
     --bg--black-50: #1c1a1d;
     --text--white-1: #fdf9ff;
-    --text--white-2: #f2f2fc;
+    --text--white-2: #dddde0;
 }
 
 ::-webkit-scrollbar {
@@ -327,7 +327,7 @@ ul {
 }
 
 .about h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 30px;
     margin-bottom: 30px;
     color: var(--theme-color);
@@ -341,7 +341,7 @@ ul {
     color: var(--text--white-2);
     letter-spacing: 1px;
     line-height: 22px;
-    font-size: 1.05em;
+    font-size: 1.1em;
     margin-bottom: 30px;
 }
 
@@ -356,3 +356,124 @@ ul {
 }
 
 /* ---------------------about ends----------------------------- */
+
+
+/* ---------------------Education starts----------------------------- */
+.education {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    height: 100vh;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    /* background-color: yellowgreen; */
+}
+
+.education h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--theme-color);
+}
+
+.education h2 span {
+    color: var(--text--white-1);
+}
+
+.education .edu-cont {
+    margin-bottom: 30px;
+    width: 90%;
+    position: relative;
+    /* background-color:violet; */
+}
+
+.edu-cont .edu-box {
+    position: relative;
+    width: 90%;
+    background: var(--bg--dark-2);
+    top: 0;
+    left: 120px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: var(--theme-color);
+    border: 4px solid var(--theme-color);
+    padding: 12px 20px;
+}
+
+.edu-cont .edu-box .before {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: var(--bg--dark-1);
+    border: 4px solid var(--theme-color);
+    top: 0;
+    left: -105px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu-cont .edu-box::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 35px;
+    background: var(--theme-color);
+    top: 30px;
+    left: -35px;
+}
+
+.edu-cont .edu-box .before i {
+    font-size: 30px;
+    color: var(--text--white-1);
+}
+
+.edu-cont .edu-box h3 {
+    color: var(--bg--black-50);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.edu-cont .edu-box small {
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--theme-color-dark);
+    font-weight: 700;
+
+}
+
+.edu-cont .edu-box p {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: var(--bg--black-50);
+}
+
+/* ---------------------Education ends----------------------------- */
+
+
+/* ---------------------skills starts----------------------------- */
+.skills {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.skills h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--theme-color);
+}
+
+.skills h2 span {
+    color: var(--text--white-1);
+}
+
+/* ---------------------skills ends----------------------------- */

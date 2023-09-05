@@ -455,6 +455,127 @@ ul {
 /* ---------------------Education ends----------------------------- */
 
 
+
+/* ---------------------experience starts----------------------------- */
+.experience {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.experience h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--theme-color);
+}
+
+.experience h2 span {
+    color: var(--text--white-1);
+}
+
+.exp-cont {
+    height: 90%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.exp {
+    width: 100%;
+    /* height: 50%; */
+    background: var(--bg--dark-2);
+    position: relative;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--theme-color);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    box-shadow: -2px -2px 7px 2px var(--theme-color);
+}
+
+.exp h3 {
+    font-size: 1.5em;
+    color: var(--text--white-1);
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.exp h3 small {
+    background: var(--bg--dark-1);
+    padding: 3px 5px;
+    font-weight: 300;
+    font-size: 0.7em;
+    border-radius: 5px;
+    color: var(--text--white-2);
+}
+
+.exp p {
+    font-size: 1.3em;
+    color: var(--text--white-2);
+    margin-bottom: 10px;
+}
+
+.exp ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: var(--text--white-2);
+}
+
+.exp ul li span {
+    color: var(--theme-color);
+    font-weight: 500;
+}
+
+.exp ul li::before {
+    content: '\2022';
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: var(--theme-color);
+}
+
+.exp ul li .btn {
+    padding: 2px 5px;
+    margin-left: 20px;
+}
+
+.exp ul li .btn a {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.exp ul li .btn:hover a {
+    letter-spacing: 2px;
+}
+
+.exp ul li .btn::before,
+.exp ul li .btn::after {
+    width: 20px;
+}
+
+.exp ul li .btn::before {
+    left: -19px;
+}
+
+.exp ul li .btn::after {
+    right: -19px;
+}
+
+/* ---------------------experience ends----------------------------- */
+
 /* ---------------------skills starts----------------------------- */
 .skills {
     width: 100%;
@@ -532,26 +653,3 @@ ul {
 }
 
 /* ---------------------skills ends----------------------------- */
-
-/* ---------------------experience starts----------------------------- */
-.experience {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    padding: 20px;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-
-.experience h2 {
-    font-size: 3rem;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    color: var(--theme-color);
-}
-
-.experience h2 span {
-    color: var(--text--white-1);
-}
-
-/* ---------------------experience ends----------------------------- */

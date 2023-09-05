@@ -651,3 +651,20 @@ ul {
 }
 
 /* ---------------------skills ends----------------------------- */
+
+
+/* ---------------------footer starts----------------------------- */
+.footer {
+    width: 100%;
+    padding: 15px;
+    background: var(--theme-color);
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 1.2em;
+    color: var(--bg--black-50);
+    font-weight: 700;
+}
+
+/* ---------------------skills ends----------------------------- */

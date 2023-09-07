@@ -661,6 +661,71 @@ ul {
 /* ---------------------skills ends----------------------------- */
 
 
+
+/* ---------------------project starts----------------------------- */
+.projects {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.projects h2 {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--theme-color);
+}
+
+.projects h2 span {
+    color: var(--text--white-1);
+
+}
+
+.proj-cont {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+    gap: 30px;
+    margin-bottom: 150px;
+    /* background-color: yellowgreen; */
+}
+
+.proj {
+    height: 380px;
+    background: var(--text--white-1);
+    text-align: center;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(14, 13, 13, 0.308);
+}
+
+.proj h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: var(--bg--black-50);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.proj .vid {
+    width: 95%;
+    height: 90%;
+    position: relative;
+}
+
+.proj .vid video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---------------------project ends----------------------------- */
+
+
 /* ---------------------contact starts----------------------------- */
 .contact {
     width: 100%;
@@ -773,9 +838,36 @@ ul {
 }
 
 .social-link .soc:hover a {
-    color: var(--bg--black-50);
+    color: #fff;
     transition: 0.3s;
 }
+
+.social-link #linkedin:hover {
+    background: rgb(7, 62, 134);
+    transition: 0.3s;
+}
+
+.social-link #insta:hover {
+    background: linear-gradient(to top left, rgb(219, 205, 6), rgb(204, 19, 133), rgb(7, 62, 134));
+    transition: 0.3s;
+}
+
+.social-link #git:hover {
+    background: #fff;
+    transition: 0.3s;
+}
+
+.social-link #git:hover a {
+    color: #04351a;
+    transition: 0.3s;
+}
+
+.social-link #code:hover {
+    background: rgb(126, 98, 48);
+    transition: 0.3s;
+}
+
+
 
 /* ---------------------contact ends----------------------------- */
 

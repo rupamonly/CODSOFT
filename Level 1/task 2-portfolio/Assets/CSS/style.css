@@ -35,13 +35,26 @@
     border: 5px solid var(--bg--dark-1);
 }
 
-/* body.white{
-    --bg--dark-1: #f2f2fc;;
-    --bg--black-100: #fdf9ff;
-    --bg--black-50: #e8dfec;
-    --text--black-900: #302e4d;
-    --text--black-700: #504e70;
-} */
+body.light {
+    --bg--dark-1: #fdf6f6;
+    --bg--dark-2: #999999;
+    --bg--black-50: #fff;
+    --text--white-1: #0c0b0c;
+    --text--white-2: #1d1d1f;
+}
+
+body.light .intro-img img {
+    mix-blend-mode: normal;
+}
+
+body.light .edu-cont .edu-box p {
+    color: #000;
+}
+
+body.light .edu-cont .edu-box h3 {
+    color: #000;
+}
+
 /* fontfamilies:{
     font-family: 'Black Ops One', cursive;
 } */
@@ -74,7 +87,7 @@ ul {
 
 .btn a {
     font-size: 1.7em;
-    color: var(--bg--black-50);
+    color: #000;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
@@ -883,7 +896,7 @@ ul {
 
 .footer h4 {
     font-size: 1.2em;
-    color: var(--bg--black-50);
+    color: #000;
     font-weight: 700;
 }
 

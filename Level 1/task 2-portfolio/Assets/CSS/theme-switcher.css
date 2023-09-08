@@ -1,4 +1,4 @@
-.theme-switcher{
+.theme-switcher {
     position: fixed;
     right: 0;
     top: 10px;
@@ -9,17 +9,20 @@
     border-radius: 5px;
     transition: all 0.3s ease;
     transform: translateX(100%);
-    transform: translateX(-20px);
+    /* transform: translateX(-20px); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308)
+    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308);
+    border-top-left-radius: 50px;
 }
-.theme-switcher.open{
+
+.theme-switcher.open {
     transform: translateX(-20px);
 }
-.theme-switcher .theme-toggler{
+
+.theme-switcher .theme-toggler {
     position: absolute;
     top: 5px;
     right: 100%;
@@ -28,12 +31,14 @@
     font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    
+
 }
-.theme-switcher .theme-toggler i{
+
+.theme-switcher .theme-toggler i {
     color: var(--theme-color);
 }
-.theme-switcher .light-dark{
+
+.theme-switcher .light-dark {
     margin-right: 5px;
     height: 40px;
     width: 40px;
@@ -43,11 +48,13 @@
     display: inline-block;
     border-radius: 50%;
 }
-.theme-switcher .light-dark i{
+
+.theme-switcher .light-dark i {
     font-size: 20px;
     color: var(--theme-color);
 }
-.theme-switcher h4{
+
+.theme-switcher h4 {
     font-size: 1.2em;
     margin-top: 10px;
     margin-right: 5px;
@@ -56,59 +63,76 @@
     letter-spacing: 2px;
     font-weight: 400;
 }
-.theme-switcher .colors{
+
+.theme-switcher .colors {
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(5,30px);
+    grid-template-columns: repeat(5, 30px);
 }
-.theme-switcher .colors span{
+
+.theme-switcher .colors span {
     height: 25px;
     border: 1px solid #000;
     background: #fff;
     cursor: pointer;
 }
-.theme-switcher .colors .color-1{
+
+.theme-switcher .colors .color-1 {
     background: rgb(211, 182, 16);
 }
-.theme-switcher .colors .color-2{
+
+.theme-switcher .colors .color-2 {
     background: rgb(194, 66, 44);
 }
-.theme-switcher .colors .color-3{
+
+.theme-switcher .colors .color-3 {
     background: rgb(39, 146, 17);
 }
-.theme-switcher .colors .color-4{
+
+.theme-switcher .colors .color-4 {
     background: rgb(16, 182, 211);
 }
-.theme-switcher .colors .color-5{
+
+.theme-switcher .colors .color-5 {
     background: rgb(17, 190, 147);
 }
-.theme-switcher .colors .color-6{
+
+.theme-switcher .colors .color-6 {
     background: rgb(21, 55, 207);
 }
-.theme-switcher .colors .color-7{
+
+.theme-switcher .colors .color-7 {
     background: rgb(100, 9, 185);
 }
-.theme-switcher .colors .color-8{
+
+.theme-switcher .colors .color-8 {
     background: rgb(155, 12, 143);
 }
-.theme-switcher .colors .color-9{
+
+.theme-switcher .colors .color-9 {
     background: rgb(165, 87, 14);
 }
-.theme-switcher .colors .color-10{
+
+.theme-switcher .colors .color-10 {
     background: rgb(184, 111, 145);
 }
-.theme-switcher .colors .color-11{
+
+.theme-switcher .colors .color-11 {
     background: rgb(146, 214, 231);
 }
-.theme-switcher .colors .color-12{
+
+.theme-switcher .colors .color-12 {
     background: rgb(23, 138, 109);
 }
-.theme-switcher .colors .color-13{
+
+.theme-switcher .colors .color-13 {
     background: rgb(172, 197, 28);
 }
-.theme-switcher .colors .color-14{
+
+.theme-switcher .colors .color-14 {
     background: rgb(0, 140, 255);
 }
-.theme-switcher .colors .color-15{
+
+.theme-switcher .colors .color-15 {
     background: rgb(158, 12, 80);
 }

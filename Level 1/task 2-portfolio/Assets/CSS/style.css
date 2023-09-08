@@ -736,8 +736,7 @@ ul {
     justify-content: center;
     align-content: center;
     padding: 30px;
-    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308);
-
+    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308)
 }
 
 .con-cont {
@@ -745,6 +744,7 @@ ul {
     height: 95%;
     background: var(--bg--dark-1);
     box-shadow: inset 1px 1px 15px 1px rgba(14, 13, 13, 0.308);
+    border: 2px solid var(--theme-color);
     text-align: center;
 }
 

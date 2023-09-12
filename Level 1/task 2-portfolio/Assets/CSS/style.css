@@ -62,6 +62,7 @@ body {
     scroll-behavior: smooth;
     background: var(--bg--dark-1);
     font-family: 'Ubuntu', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 a {
@@ -172,6 +173,7 @@ ul {
     /* background-color: wheat; */
     position: relative;
     display: flex;
+    overflow-y: hidden;
 }
 
 .intro-text {
@@ -342,6 +344,7 @@ ul {
     height: fit-content;
     padding: 20px;
     padding-left: 50px;
+    overflow-y: hidden;
     /* background-color: yellowgreen; */
 }
 
@@ -382,10 +385,11 @@ ul {
     position: relative;
     width: 100%;
     height: fit-content;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 20px;
     padding-left: 50px;
     padding-bottom: 30px;
+    overflow-y: hidden;
     /* background-color: yellowgreen; */
 }
 
@@ -485,6 +489,7 @@ ul {
     padding: 20px;
     padding-left: 50px;
     padding-top: 50px;
+    overflow-y: hidden;
 }
 
 .experience h2 {
@@ -604,6 +609,7 @@ ul {
     padding: 20px;
     padding-left: 50px;
     padding-top: 100px;
+    overflow-y: hidden;
 }
 
 .skills h2 {
@@ -683,6 +689,7 @@ ul {
     position: relative;
     padding: 20px;
     padding-left: 50px;
+    overflow-y: hidden;
 }
 
 .projects h2 {
@@ -701,14 +708,14 @@ ul {
     width: 100%;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 650px);
+    grid-template-columns: repeat(1, 100%);
     gap: 30px;
     margin-bottom: 150px;
     /* background-color: yellowgreen; */
 }
 
 .proj {
-    height: 380px;
+    height: 880px;
     background: var(--text--white-1);
     text-align: center;
     padding: 10px;
@@ -726,7 +733,7 @@ ul {
 }
 
 .proj .vid {
-    width: 95%;
+    width: 98%;
     height: 90%;
     position: relative;
 }
@@ -744,13 +751,14 @@ ul {
 .contact {
     width: 100%;
     position: relative;
-    height: 80vh;
+    height: fit-content;
     background: var(--bg--dark-2);
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 30px;
-    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308)
+    box-shadow: 1px 1px 15px 1px rgba(14, 13, 13, 0.308);
+    overflow-y: hidden;
 }
 
 .con-cont {
@@ -900,4 +908,34 @@ ul {
     font-weight: 700;
 }
 
-/* ---------------------skills ends----------------------------- */
+/* ---------------------footer ends----------------------------- */
+
+
+@media (max-width:1360px) {
+    .skills .skills-cont {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 340px);
+        gap: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+        flex-wrap: wrap;
+        /* background: yellowgreen; */
+    }
+
+    .proj {
+        height: 680px;
+    }
+
+    .det a {
+        font-size: 1.2em;
+    }
+
+    .social-link {
+        padding: 10px;
+        grid-template-columns: repeat(2, 180px);
+        gap: 15px;
+        padding-left: 30px;
+    }
+}

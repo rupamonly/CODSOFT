@@ -939,3 +939,198 @@ ul {
         padding-left: 30px;
     }
 }
+
+@media (max-width:1010px) {
+
+    .btn {
+        padding: 5px 10px;
+        margin-top: 15px;
+    }
+
+    .btn a {
+        font-size: 1.2em;
+    }
+
+    .intro {
+        height: fit-content;
+    }
+
+    .intro-text {
+        margin-top: 70px;
+    }
+
+    .intro-text h1 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .intro-text h1 span {
+        font-size: 1.7rem;
+    }
+
+    .intro-text p {
+        font-size: 0.8em;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .intro-img .img-cont .social-links a {
+        display: none;
+    }
+
+    .intro-img img {
+        height: 450px;
+    }
+
+    .nav ul li a {
+        font-size: 1em;
+
+    }
+
+
+    .about h2 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+
+    .about p {
+        line-height: 18px;
+        font-size: 0.8em;
+        margin-bottom: 20px;
+    }
+
+    .education {
+        padding-bottom: 20px;
+    }
+
+    .education h2 {
+        font-size: 1.7rem;
+    }
+
+    .edu-cont .edu-box .before {
+        height: 50px;
+        width: 50px;
+        top: 5px;
+        left: -86px;
+    }
+
+    .edu-cont .edu-box .before i {
+        font-size: 20px;
+    }
+
+    .edu-cont .edu-box h3 {
+        font-size: 1rem;
+    }
+
+    .edu-cont .edu-box small {
+        font-size: 0.7em;
+
+    }
+
+    .edu-cont .edu-box p {
+        font-size: 0.8em;
+    }
+
+    .experience h2 {
+        font-size: 1.7rem;
+
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        top: 15px;
+        left: 25px;
+    }
+
+    .exp h3 {
+        font-size: 1.1em;
+    }
+
+    .exp h3 small {
+        font-size: 0.7em;
+    }
+
+    .exp p {
+        font-size: 1em;
+
+    }
+
+    .exp ul li {
+        font-size: 0.85em;
+    }
+
+    .exp ul li .btn a {
+        font-size: 0.7em;
+
+    }
+
+
+    .skills h2 {
+        font-size: 1.7rem;
+
+    }
+
+
+    .skills .skills-cont {
+        grid-template-columns: repeat(2, 320px);
+    }
+
+
+    .skills-cont .skill img {
+        height: 90px;
+    }
+
+    .skills-cont .skill h3 {
+        font-size: 1.7em;
+    }
+
+    .skills-cont .skill p {
+        font-size: 1em;
+    }
+
+    .projects h2 {
+        font-size: 1.7rem;
+    }
+
+
+    .proj {
+        height: 480px;
+    }
+
+    .proj h3 {
+        font-size: 1em;
+    }
+
+    .con-cont h3 {
+        font-size: 1.5em;
+
+    }
+
+    .det {
+        padding: 10px;
+    }
+
+    .det a {
+        font-size: 0.8em;
+    }
+
+    .social-link {
+        padding: 25px;
+        grid-template-columns: repeat(2, 100px);
+        padding-left: 20px;
+    }
+
+    .social-link .soc {
+
+        height: 100px;
+    }
+
+    .social-link .soc a {
+        font-size: 2em;
+
+    }
+
+
+}

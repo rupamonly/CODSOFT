@@ -34,6 +34,16 @@
 
 }
 
+@media (max-width:615px) {
+    .theme-switcher .theme-toggler {
+        top: 10px;
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+
+    }
+}
+
 .theme-switcher .theme-toggler i {
     color: var(--theme-color);
 }

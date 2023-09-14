@@ -1134,6 +1134,268 @@ ul {
 
 
 }
-/* @media (max-width:800px){
 
-} */
+@media (max-width:800px) {
+    .proj {
+        height: 380px;
+    }
+}
+
+@media (max-width:615px) {
+
+    .btn {
+        padding: 2px 5px;
+        margin-top: 8px;
+    }
+
+    .btn a {
+        font-size: 0.7em;
+    }
+
+    .header .logo a {
+        font-size: 1rem;
+
+    }
+
+    .intro-text {
+        margin-top: 10px;
+    }
+
+    .intro-text h1 {
+        font-size: 0.55rem;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        padding-left: 20px;
+    }
+
+    .intro-text h1 span {
+        font-size: 0.8rem;
+    }
+
+    .intro-text p {
+        font-size: 0.5em;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+
+    .intro-img .img-cont .social-links a {
+        display: none;
+    }
+
+    .intro-img img {
+        height: 250px;
+    }
+
+    .intro-img .img-cont::before {
+        height: 50px;
+
+    }
+
+    .intro-img .img-cont::after {
+
+        height: 50px;
+
+    }
+
+    .nav {
+        right: -10px;
+        bottom: 2%;
+    }
+
+    .nav ul .item {
+        margin-bottom: 4px;
+        padding: 1px;
+        padding-bottom: 3px;
+    }
+
+    .nav ul li a {
+        font-size: 0.6em;
+        margin-left: 10px;
+        letter-spacing: 1px;
+
+    }
+
+    .nav ul .item:hover a {
+        letter-spacing: 2px;
+    }
+
+    .about {
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .about h2 {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .about p {
+        line-height: 15px;
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+
+    .education {
+        /* padding-bottom: 10px; */
+        padding-left: 20px;
+        padding: 20px;
+    }
+
+    .education h2 {
+        font-size: 0.8rem;
+    }
+
+    .edu-cont .edu-box {
+        left: 70px;
+    }
+
+    .edu-cont .edu-box .before {
+        height: 50px;
+        width: 50px;
+        top: 5px;
+        left: -66px;
+    }
+
+    .edu-cont .edu-box::before {
+        width: 15px;
+        left: -15px;
+    }
+
+    .experience {
+        padding: 20px;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    .experience h2 {
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        top: 15px;
+        left: 25px;
+    }
+
+    .exp h3 {
+        font-size: 0.8em;
+        line-height: 20px;
+    }
+
+    .exp h3 small {
+        font-size: 0.8em;
+    }
+
+    .exp p {
+        font-size: 0.7em;
+
+    }
+
+    .exp ul li {
+        font-size: 0.65em;
+        line-height: 18px;
+    }
+
+    .exp ul li .btn a {
+        font-size: 0.7em;
+
+    }
+
+    .skills {
+        padding-left: 20px;
+    }
+
+    .skills h2 {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+
+    }
+
+
+    .skills .skills-cont {
+        grid-template-columns: repeat(1, 320px);
+        gap: 15px;
+    }
+
+
+    .skills-cont .skill img {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .skills-cont .skill h3 {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+
+    .skills-cont .skill p {
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+
+    .projects {
+        padding-left: 20px;
+    }
+
+    .projects h2 {
+        font-size: 0.8rem;
+    }
+
+
+    .proj {
+        height: 220px;
+        padding: 5px;
+        padding-left: 6px;
+    }
+
+    .proj h3 {
+        font-size: 0.6em;
+    }
+
+    .proj .vid {
+        width: 99%;
+
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .con-cont h3 {
+        font-size: 0.8rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .details {
+        height: 50%;
+        width: 100%;
+        padding: 25px;
+        padding-left: 35px;
+    }
+
+    .social-link {
+        height: 50%;
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 20px;
+        padding-left: 15px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer h4 {
+        font-size: 0.8em;
+        font-weight: 900;
+    }
+}

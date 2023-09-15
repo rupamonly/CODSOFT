@@ -55,9 +55,13 @@ body.light .edu-cont .edu-box h3 {
     color: #000;
 }
 
-/* fontfamilies:{
-    font-family: 'Black Ops One', cursive;
-} */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Start slightly below the viewport */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
 body {
     scroll-behavior: smooth;
     background: var(--bg--dark-1);
@@ -525,8 +529,9 @@ ul {
     position: absolute;
     top: 10px;
     left: 20px;
-    box-shadow: -2px -2px 7px 2px var(--theme-color);
+    box-shadow: -2px -2px 15px 2px var(--theme-color);
 }
+
 
 .exp h3 {
     font-size: 1.5em;
@@ -912,6 +917,7 @@ ul {
 
 
 @media (max-width:1360px) {
+
     .skills .skills-cont {
         width: 100%;
         padding: 20px;

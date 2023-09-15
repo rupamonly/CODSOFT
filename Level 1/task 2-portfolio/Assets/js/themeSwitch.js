@@ -1,4 +1,5 @@
 // ===============light mode and dark mode==========================
+
 const lightDark = document.querySelector(".light-dark")
 window.addEventListener("load", () => {
     if (document.body.classList.contains("light")) {

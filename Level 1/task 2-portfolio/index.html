@@ -44,19 +44,19 @@
         <section class="intro">
             <div class="intro-text">
                 <div class="text">
-                    <h1>Hi there,hello! my name is <span>Rupam Bhakta</span></h1>
-                    <p>I am a BCA Graduate and currently pursuing for Masters <br>
+                    <h1 class="fade-in">Hi there,hello! my name is <span>Rupam Bhakta</span></h1>
+                    <p class="fade-in">I am a BCA Graduate and currently pursuing for Masters <br>
                         I have foundational knowledge on web development,<br> right now front-end is my strength,<br>
                         I also practice Python Programming on <a href="" id="Codechef">Codechef</a><br>
                         and have moderate knowledge of languages like C,C++ <br>
                     </p>
-                    <button class="btn">
+                    <button class="btn fade-in">
                         <a href="https://drive.google.com/file/d/1NvUtMHZSEv5WA0vJJSyD4VYQuentRb2a/view?usp=sharing"
                             target="_blank">Download CV</a>
                     </button>
                     <br>
-                    <button class="btn">
-                        <a href="#contact">Contact Me</a>
+                    <button class="btn fade-in">
+                        <a href="#contact" onclick="smoothScroll('contact')">Contact Me</a>
                     </button>
                     <br>
 
@@ -80,12 +80,13 @@
 
             <nav class="nav">
                 <ul>
-                    <li class="item"><a href="#about">About</a></li>
-                    <li class="item"><a href="#education">Education</a></li>
-                    <li class="item"><a href="#skills">Skills</a></li>
-                    <li class="item"><a href="#experience">Experience</a></li>
-                    <li class="item"><a href="#projects">Projects</a></li>
-                    <li class="item"><a href="#contact">Contact</a></li>
+                    <li class="item fade-in"><a href="#about" onclick="smoothScroll('about')">About</a></li>
+                    <li class="item fade-in"><a href="#education" onclick="smoothScroll('education')">Education</a></li>
+                    <li class="item fade-in"><a href="#skills" onclick="smoothScroll('skills')">Skills</a></li>
+                    <li class="item fade-in"><a href="#experience" onclick="smoothScroll('experience')">Experience</a>
+                    </li>
+                    <li class="item fade-in"><a href="#projects" onclick="smoothScroll('projects')">Projects</a></li>
+                    <li class="item fade-in"><a href="#contact" onclick="smoothScroll('contact')">Contact</a></li>
                 </ul>
             </nav>
         </section>
@@ -95,8 +96,9 @@
 
         <!-- ============================about starts=============================== -->
         <section class="about" id="about">
-            <h2>About Me <span>| | . . .</span></h2>
-            <p>Hi there reader,this is me <a href="">Rupam Bhakta</a>. A 21 year old graduate from Ranchi,Jharkhand.
+            <h2 class="fade-in">About Me <span>| | . . .</span></h2>
+            <p class="fade-in">Hi there reader,this is me <a href="">Rupam Bhakta</a>. A 21 year old graduate from
+                Ranchi,Jharkhand.
                 Currently, in my drop year pursuing MCA,I've already completed my BCA from <a href="">Birla Institue of
                     Technology,Mesra</a>. I didn't mentioned myself as a web developer or software engineer because I am
                 yet to hone the skills to call myself with these titles.I've already gained my basic knowledge on web
@@ -109,7 +111,8 @@
                 final year project. I am yet to learn MEAN/MERN,Rest APIs,Hosting/Deployment,SEO,CI/CD pipelines.
                 Judging by my intro you can say that I am not an expert in my field,and I am not because I started my
                 journey just few months back in web development when I participated in the <span>CODEFEST:Inter College
-                    Hackathon in BIT Mesra,Lalpur Extension.'more about that in the <a href="">Experience</a>
+                    Hackathon in BIT Mesra,Lalpur Extension.'more about that in the <a href="#experience"
+                        onclick="smoothScroll('experience')">Experience</a>
                     section'</span>. I am still on my journey of becoming an expert.</p>
         </section>
         <!-- ============================about ends=============================== -->
@@ -118,10 +121,10 @@
 
         <!-- ============================Education starts=============================== -->
         <section class="education" id="education">
-            <h2>Education <span>| | . . .</span></h2>
+            <h2 class="fade-in">Education <span>| | . . .</span></h2>
             <div class="edu-cont">
                 <div class="line"></div>
-                <div class="edu-box">
+                <div class="edu-box fade-in">
                     <div class="before">
                         <i class="fa-solid fa-building-columns"></i>
                     </div>
@@ -135,7 +138,7 @@
                         Mining |</p>
                 </div>
 
-                <div class="edu-box">
+                <div class="edu-box fade-in">
                     <div class="before">
                         <i class="fa-solid fa-school-flag"></i>
                     </div>
@@ -147,7 +150,7 @@
                         Education |</p>
                 </div>
 
-                <div class="edu-box">
+                <div class="edu-box fade-in">
                     <div class="before">
                         <i class="fa-solid fa-school"></i>
                     </div>
@@ -170,9 +173,9 @@
         <!-- ============================Experience starts=============================== -->
 
         <section class="experience" id="experience">
-            <h2>My Experience <span>| | . . .</span></h2>
+            <h2 class="fade-in">My Experience <span>| | . . .</span></h2>
             <div class="exp-cont">
-                <div class="exp">
+                <div class="exp fade-in">
                     <div class="dot"></div>
                     <h3>Team Leader - CODEFEST : Inter College Hackathon <small>March-2023</small></h3>
                     <p>Birla Institue of Technology, Mesra | Lalpur Extension</p>
@@ -216,51 +219,51 @@
 
         <!-- ============================skills starts=============================== -->
         <section class="skills" id="skills">
-            <h2>My Skills <span>| | . . .</span></h2>
+            <h2 class="fade-in">My Skills <span>| | . . .</span></h2>
             <div class="skills-cont">
-                <div class="skill">
+                <div class="skill fade-in">
                     <img src="Assets/Images/c1.png" alt="">
                     <h3>C</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill">
+                <div class="skill fade-in">
                     <img src="Assets/Images/c++.png" alt="">
                     <h3>C++</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/python .png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/python .png" alt="">
                     <h3>Python</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/html .png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/html .png" alt="">
                     <h3>HTML</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/css .png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/css .png" alt="">
                     <h3>CSS</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/js.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/js.png" alt="">
                     <h3>JavaScript</h3>
                     <p>Beginner</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/php.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/php.png" alt="">
                     <h3>PHP</h3>
                     <p>Moderate</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/mysql.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/mysql.png" alt="">
                     <h3>MySQL</h3>
                     <p>Beginner</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/kotlin.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/kotlin.png" alt="">
                     <h3>Kotlin</h3>
                     <p>Beginner</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/adstudio.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/adstudio.png" alt="">
                     <h3>Android Studio</h3>
                     <p>Beginner</p>
                 </div>
-                <div class="skill"><img src="Assets/Images/firebase.png" alt="">
+                <div class="skill fade-in"><img src="Assets/Images/firebase.png" alt="">
                     <h3>Firebase</h3>
                     <p>Beginner</p>
                 </div>
@@ -272,7 +275,7 @@
 
         <!-- ============================Projects starts=============================== -->
         <section class="projects" id="projects">
-            <h2>My Projects <span>| | . . .</span></h2>
+            <h2 class="fade-in">My Projects <span>| | . . .</span></h2>
             <div class="proj-cont">
                 <div class="proj">
                     <h3>CODEFEST Project Prototype</h3>
@@ -303,30 +306,33 @@
         <!-- ============================Contact starts=============================== -->
         <section class="contact" id="contact">
             <div class="con-cont">
-                <h3>Contact Me</h3>
+                <h3 class="fade-in">Contact Me</h3>
                 <div class="links">
                     <div class="details">
-                        <div class="det" id="ph"><a href=""><i class="fa-solid fa-phone"></i> : 7061672946</a></div>
-                        <div class="det" id="gm"><a href=""><i class="fa-solid fa-envelope"></i> :
+                        <div class="det fade-in" id="ph"><a href=""><i class="fa-solid fa-phone"></i> : 7061672946</a>
+                        </div>
+                        <div class="det fade-in" id="gm"><a href=""><i class="fa-solid fa-envelope"></i> :
                                 rupambhakta73@gmail.com</a></div>
-                        <div class="det" id="wh"><a href=""><i class="fa-brands fa-whatsapp"></i> : 7061672946</a></div>
-                        <div class="det" id="tel"><a href=""><i class="fa-brands fa-telegram"></i> : @iluuvecats</a>
+                        <div class="det fade-in" id="wh"><a href=""><i class="fa-brands fa-whatsapp"></i> :
+                                7061672946</a></div>
+                        <div class="det fade-in" id="tel"><a href=""><i class="fa-brands fa-telegram"></i> :
+                                @iluuvecats</a>
                         </div>
                     </div>
                     <div class="social-link">
-                        <div class="soc" id="linkedin">
+                        <div class="soc fade-in" id="linkedin">
                             <a href="https://www.linkedin.com/in/rupam-bhakta-6b8097262" target="_blank"><i
                                     class="fa-brands fa-linkedin-in"></i></a>
                         </div>
-                        <div class="soc" id="insta">
+                        <div class="soc fade-in" id="insta">
                             <a href="https://www.instagram.com/rupam_rrb_zone/" target="_blank"><i
                                     class="fa-brands fa-instagram"></i></a>
                         </div>
-                        <div class="soc" id="git">
+                        <div class="soc fade-in" id="git">
                             <a href="https://github.com/rupamonly" target="_blank"><i
                                     class="fa-brands fa-github"></i></a>
                         </div>
-                        <div class="soc" id="code">
+                        <div class="soc fade-in" id="code">
                             <a href="https://www.codechef.com/users/rupambhakta043" target="_blank"><i
                                     class="fa-solid fa-laptop-code"></i></a>
                         </div>
@@ -387,6 +393,7 @@
 
     <script src="Assets/js/themeSwitch.js"></script>
     <script src="Assets/js/colorSwitcher.js"></script>
+    <script src="Assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

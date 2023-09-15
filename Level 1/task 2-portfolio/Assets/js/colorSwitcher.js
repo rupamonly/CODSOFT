@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
 })
 
 
-
+// ============================color-switcher=====================================
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function SetActiveTheme(color) {
@@ -29,7 +29,8 @@ function SetActiveTheme(color) {
 
 
 
-// =================light and dark toggle=============================
+// =======================light and dark toggle====================================
+
 const litDark = document.querySelector(".light-dark");
 lightDark.addEventListener("click", () => {
     litDark.querySelector("i").classList.toggle("fa-moon");

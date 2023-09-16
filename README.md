@@ -20,3 +20,17 @@ The task was to create a calculator to perform basic opertaions of mathematics w
 Issues:
         It is a very basic calculator hence it cannot handle complex calculations, issues with responsiveness
 
+
+Screenshots:
+
+![Screenshot (45)](https://github.com/rupamonly/CODSOFT/assets/122716395/c52947a8-87d1-431b-b065-c7842fb24b26)
+
+![Screenshot (46)](https://github.com/rupamonly/CODSOFT/assets/122716395/7938e783-abb9-4f7f-bd5e-d204c87861fd)
+
+![Screenshot (47)](https://github.com/rupamonly/CODSOFT/assets/122716395/5826521a-b14d-4dbe-92df-226a111d2e0d)
+
+![Screenshot (48)](https://github.com/rupamonly/CODSOFT/assets/122716395/3a7ff5ad-8b49-43d7-bf08-5cdf7763020b)
+
+![Screenshot (49)](https://github.com/rupamonly/CODSOFT/assets/122716395/77bb1bcd-c1c0-4062-8e18-b9a61d502f46)
+
+![Screenshot (50)](https://github.com/rupamonly/CODSOFT/assets/122716395/83dcfef0-226c-4a81-8816-070a282783c6)

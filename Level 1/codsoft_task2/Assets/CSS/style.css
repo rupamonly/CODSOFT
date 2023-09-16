@@ -58,7 +58,6 @@ body.light .edu-cont .edu-box h3 {
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
-    /* Start slightly below the viewport */
     transition: opacity 1s ease, transform 1s ease;
 }
 
